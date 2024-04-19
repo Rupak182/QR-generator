@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body class="bg-[#111729] font-outfit">
+    <div class="contain min-h-[100vh] min-w-full flex items-center justify-center relative">
+        <div class="box w-full flex flex-col items-center justify-center gap-5">
+            <div class="logo">
+                <img src="assets/logo-qr-generator.svg" alt="">
+            </div>
+            <div class="illusrate absolute right-[0.25rem]">
+                <img class="" src="assets/bg-illustration.svg" alt="" srcset="">
+
+            </div>
+
+            <div class="search relative md:w-2/5 w-[90%]">
+                <form  action="">
+                    <input class="url focus:outline-none bg-black border border-[#3662E3] rounded-2xl p-3 placeholder-[#364153]  py-5 w-full text-white" placeholder="Enter an url" type="text">
+                    <button type="submit" class="rounded-2xl top-[10%] p-4 px-8 absolute right-[7px] 4 h-[80%]  z-10 bg-[#3662E3] text-white">QR code</button>
+                </form>
+            </div> 
+
+        </div>
+    </div>
+
+    <div class="contain-2 hidden">
+        <div class="img p-6">
+            <img src="assets/logo-qr-generator.svg " alt="" srcset="">
+        </div>
+
+        <div class="illusrate absolute right-[0.25rem]">
+            <img class="" src="assets/bg-illustration.svg" alt="" srcset="">
+        </div>
+
+        <div class="box rounded-full bg-[#1e2c51] p-10 w-fit m-auto my-8">
+            <div class="qr rounded-md p-7 bg-white">
+
+            </div>
+        </div>
+
+        <div class="buttons flex items-center justify-center gap-4">
+            <button class="Download p-6 w-fit px-8 bg-[#3662E3] rounded-lg text-white flex items-center justify-center gap-4">
+                <span class=""><a class="down" href="" hidden >Download</a></span>
+                <span class="material-symbols-outlined">play_for_work</span>
+            </button>
+            <button class=" share p-6 w-fit px-12 bg-[#3662E3] text-white rounded-lg flex items-center justify-center gap-4">
+                <span>Share</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#FFFFF" fill="none">
+                    <path d="M9.52344 14.4367L14.4365 9.52368" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M21.0152 16.0088H19.0115M16.0059 21.0192V19.015" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M2.98242 7.99208H4.98615M7.99175 2.98169V4.98584" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M15.1066 12.5687C16.2466 13.3084 17.4153 13.111 18.2696 12.2566L21.264 9.26159C22.2421 8.28325 22.2421 6.69705 21.264 5.71871L18.2787 2.73278C17.3005 1.75444 15.7147 1.75444 14.7365 2.73278L11.7422 5.72779C11.0404 6.42968 10.6352 7.76371 11.4651 8.91009" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M12.5685 15.1085C13.308 16.2488 13.1106 17.4178 12.2564 18.2722L9.262 21.2672C8.28387 22.2456 6.69801 22.2456 5.71987 21.2672L2.73458 18.2813C1.75644 17.303 1.75644 15.7168 2.73458 14.7384L5.72895 11.7434C6.4307 11.0415 7.76444 10.6362 8.91058 11.4663" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
